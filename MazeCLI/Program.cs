@@ -43,7 +43,6 @@ namespace maze
 
         private static bool[,] pathDisplayed; // Массив для отслеживания отображения подсказывающего пути
         private static bool isPathShown = false; // Флаг для отслеживания состояния подсказки
-
         static void Main()
         {
             pathDisplayed = new bool[21, 37]; // Размеры лабиринта: 21 строка, 37 столбцов
